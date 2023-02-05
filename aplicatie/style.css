@@ -1,0 +1,190 @@
+@font-face{
+   font-family:Dosis; 
+   src: url(fonts/Dosis-Medium.ttf)
+ }
+
+
+body{
+	font-family: 'Dosis', sans-serif;
+	letter-spacing:0px;
+	background-color:#f0f0f0;
+	position:relative;
+}
+
+input{
+	margin:5px 0 5px 0;
+	border-radius: 5px;
+    border: 1px solid grey;
+	padding:3px;
+}
+
+a {color:inherit;}
+
+a:hover{
+	opacity:0.7;
+	text-decoration:none;
+	color:inherit;
+}
+a:visited{
+	text-decoration:none;
+	color:inherit;
+}
+
+p{
+	padding:0 0 0 5px;
+    margin:0;
+}
+
+.numberCircle {
+    width: 19px;
+    line-height: 1px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px 8px 8px 5px;
+    background-color: red;
+    border: 1px solid red;
+    float: right;
+    color: white;
+}
+
+.produs {
+ 
+  border-radius: 2px;
+  padding:5px ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  background-color: white;
+}
+
+.produs1 {
+  margin-top:5px;
+  border-radius: 2px;
+  padding:20px ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  background-color: white;
+}
+
+.produs2 {
+
+  border-radius: 2px;
+  padding:5px ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  background-color: white;
+  height:240px;
+  position: relative
+}
+
+.ultimele_adaugate{
+	margin:70px 0 20px 0;
+	width:100%;
+}
+
+.mesaj{
+position:absolute;
+margin:60px;}
+
+
+.navbar-fixed-top .navbar-collapse {padding:0 15px 0 0 ;}
+
+.ultimele .col-sm-4, .col-sm-3 {padding:30px; }
+
+
+h1 {
+    position: relative;
+    bottom: -17px;
+    background:#f0f0f0;
+	color:#5d5d5d;
+    padding:0 20px 0 20px ;
+    margin:0;
+    display: inline-block;
+    text-align:center;
+}
+div.border {
+    border-bottom: 1px solid #a2a2a2;
+}
+
+
+.cos_cumparaturi{border-bottom:solid 2px grey;}
+
+.de_cos{
+  border-radius: 5px;
+  padding:30px ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  font-size:16px;
+  background-color:white;
+}
+
+.container_cos{
+display:table; width:100%; margin:10px; border-bottom:1px solid #d9d9d9;
+}
+.one{float:left; margin-left: -30px;}
+.two{float:right; padding:0 0 0 15px;}
+.three{float:right; padding:0 15px 0 15px; font-weight:bold; color: #ff6666;}
+
+.navbar-brand{
+	padding:0 5px 0 5px;
+}
+
+.navbar-brand img{
+	height:50px;
+	padding:0 0 4px 0;
+}
+
+.menu b{font-size:16px;}
+
+.optiuni{
+  border-radius: 5px;
+  padding:20px ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  background-color: white;
+}
+
+
+.date input{width:100%;}
+
+select{
+	margin:5px 0 5px 0;
+	border-radius: 5px;
+    border: 1px solid grey;
+	padding:3px;
+    width: 139px;
+	background-color:white;
+}
+
+footer{
+	background-color:#282828;
+    overflow:hidden;
+	color:rgba(255,255,255, 0.7);
+}
+
+footer h3{font-weight:bold; padding-bottom:10px;}
+footer .social{font-size:30px;}
+
+.footer_jos{
+	background-color:#211E1E;
+    margin-top:20px;
+}
+.ultimele .col-sm-4, .col-sm-3 {padding:30px; }
+.produsele.col-sm-4, .col-sm-3{padding:5px;}
+
+.no_padding col-sm-3 col-sm-4 col-xs-6 col-xs-12 {padding:0;}
+
+.ordoneaza{
+  margin:10px 0 10px 0;
+  border-radius: 2px;
+  padding:7px 0 7px 15px ;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.20);
+  background-color: white;}
+  
+  .adauga_produs{
+	  height:50px;
+	  width:300px;
+	  background-color:lime;
+	  border-radius:5px;
+	  
+  }
+  
+  .obiecte img{width:200px;}
+  .border2{
+	  border-bottom: 1px solid #a2a2a2;
+	  text-align:left;
+  }
